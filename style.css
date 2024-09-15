@@ -11,9 +11,7 @@ body {
     border-radius: 4px;
 
     overflow: hidden;
-
-    width: 100vw;
-    height: 98vh;
+    padding: 10vw;
 
     display: flex;
     justify-content: center;
@@ -39,19 +37,20 @@ a {
 
 nav.nav-container {
     width: 80vw;
-    height: 80vh;
+    height: 90vh;
     background-color: #0e1013;
     border: 1px solid black;
     border-radius: 2px;
 
     box-shadow: 9px 9px 37px -14px #000000;
 
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-    padding: 40px 10px;
 
 }
 
@@ -74,8 +73,9 @@ nav.nav-container {
 }
 
 .nav-container ol {
-    font-size: 2.8vh;
+    font-size: 1.4rem;
 }
+
 
 .nav-container ol li:nth-child(odd) {
     background-color: #1b1d20;
