@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1d20;
+    color: white;
+    font-family: 'Roboto';
+    border-radius: 4px;
+
+    overflow: hidden;
+
+    width: 100vw;
+    height: 98vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.title-container {
+    text-align: center;
+    color: yellow;
+    width: 250px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: -1.7rem;
+    z-index: 0;
+    text-transform: uppercase;
+}
+
+nav.nav-container {
+    width: 80vw;
+    height: 80vh;
+    background-color: #0e1013;
+    border: 1px solid black;
+    border-radius: 2px;
+
+    box-shadow: 9px 9px 37px -14px #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 40px 10px;
+
+}
+
+.nav-container p {
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.nav-container .barra {
+    background: linear-gradient(to right, yellow, orange);
+    border: 1px solid black;
+    width: 10px;
+    height: 5px;
+
+    position: relative;
+    top: 15px;
+    left: -15%;
+}
+
+.nav-container ol {
+    font-size: 2.8vh;
+}
+
+.nav-container ol li:nth-child(odd) {
+    background-color: #1b1d20;
+}
+
+.nav-container ol>li {
+    list-style: none;
+    background-color: #0e1013;
+    padding: 8px 15px;
+
+    position: relative;
+}
+
+
+.nav-container li>a {
+    text-decoration: none;
+}
+
+.nav-container li>a:visited {
+    color: #fff;
+}
+
+.nav-container ol>li:hover {
+    background-color: #0a0b0d;
+}
+
+.nav-container ol>li>a:hover {
+    color: yellow;
+    transition: 0.3s;
+}
+
+footer {
+    margin-top: 3vh;
+    background-color: #0e1013;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 7vh;
+    width: 100vw;
+}
+
+footer span {
+    color: yellow;
+}
