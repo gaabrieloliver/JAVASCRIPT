@@ -4,3 +4,4 @@ Aqui você conseguirá acompanhar todas as minhas anotações que fiz em relaç�
 O melhor de tudo é que você pode também aprender com elas.
 
 Acesse o link [aqui](https://gaabrieloliver.github.io/JAVASCRIPT/) e confira.
+![alt text](image.png)
